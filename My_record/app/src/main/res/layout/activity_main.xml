@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="53dp"
+        android:text="Confirm"
+        android:textColor="#06135E"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/eT3" />
+
+    <EditText
+        android:id="@+id/eT2"
+        android:layout_width="298dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:hint="Enter you emailid"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/eT" />
+
+    <EditText
+        android:id="@+id/eT3"
+        android:layout_width="300dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:hint="Enter your password"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/eT2" />
+
+    <EditText
+        android:id="@+id/eT"
+        android:layout_width="295dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="60dp"
+        android:ems="10"
+        android:hint="Enter your name"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.521"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="247dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="48dp"
+        android:text="Enter your Details"
+        android:textColor="#F87E031F"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.645"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

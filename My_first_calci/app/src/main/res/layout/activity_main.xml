@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="30dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/text_1"
+        android:layout_width="match_parent"
+        android:layout_height="89dp"
+        android:text="Enter the numbers :"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/Num_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Number_1"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/Num_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Number_2"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/Result"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:hint="Result"
+        android:textSize="24sp" />
+    <Button
+        android:id="@+id/sum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Addition" />
+
+    <Button
+        android:id="@+id/sub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Subtraction" />
+
+    <Button
+        android:id="@+id/mul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Multiplication" />
+
+    <Button
+        android:id="@+id/div"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Division" />
+
+</LinearLayout>
