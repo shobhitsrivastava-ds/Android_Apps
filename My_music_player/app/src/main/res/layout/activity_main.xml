@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/my_music_1"
+    android:drawingCacheQuality="high">
+
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:id="@+id/circularimg"
+        android:layout_width="230dp"
+        android:layout_height="230dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="92dp"
+        android:layout_marginLeft="92dp"
+        android:layout_marginTop="74dp"
+        android:layout_marginEnd="89dp"
+        android:layout_marginRight="89dp"
+        android:src="@drawable/circular"
+        app:civ_border_color="#000000" />
+
+    <Button
+        android:id="@+id/btn_play"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:layout_below="@+id/circularimg"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/play" />
+
+    <Button
+        android:id="@+id/btn_pause"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignBottom="@+id/btn_play"
+        android:layout_marginEnd="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="5dp"
+        android:layout_toStartOf="@+id/btn_play"
+        android:layout_toLeftOf="@+id/btn_play"
+        android:background="@drawable/ppl" />
+
+    <Button
+        android:id="@+id/btn_stop"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignEnd="@+id/circularimg"
+        android:layout_alignRight="@+id/circularimg"
+        android:layout_alignBottom="@+id/btn_play"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginEnd="-27dp"
+        android:layout_marginRight="-27dp"
+        android:layout_marginBottom="11dp"
+        android:background="@drawable/plug" />
+
+</RelativeLayout>
+
+
+
+
+
+
+
+
+
